@@ -3,8 +3,8 @@ terraform {
     resource_group_name = "AZrg1011"
     storage_account_name = "storageweb1010"
     container_name = "qatfstate"
-    key = "xxxx.yyyy"
-    access_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    key = "terraform.qatfstate"
+    access_key = 
   }
   required_providers {
       azurerm = {
