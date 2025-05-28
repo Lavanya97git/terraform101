@@ -3,8 +3,8 @@ terraform {
     resource_group_name = "AZrg1011"
     storage_account_name = "storageweb1010"
     container_name = "webtfstate"
-    #key = "xxxx.<container_name>" 
-    #access_key = "your_access_key_here" # Uncomment and set if needed
+    #key
+    #access_key
   }
   required_providers {
       azurerm = {
