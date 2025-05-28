@@ -2,9 +2,7 @@ terraform {
   backend "azurerm" {
     resource_group_name = "AZrg1011"
     storage_account_name = "storageweb1010"
-    container_name = "webtfstate"
-    #key
-    #access_key
+    container_name = "webtfstate" #key&acccesskey required
   }
   required_providers {
       azurerm = {
