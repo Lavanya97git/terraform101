@@ -4,7 +4,7 @@ terraform {
     storage_account_name = "storageweb1010"
     container_name = "webtfstate"
     key = "terraform.webtfstate"
-    #access_key = 
+    #access_key = "your_access_key_here" # Uncomment and set if needed
   }
   required_providers {
       azurerm = {
