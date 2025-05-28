@@ -4,7 +4,7 @@ terraform {
     storage_account_name = "storageweb1010"
     container_name = "qatfstate"
     key = "terraform.qatfstate"
-    access_key = "FxUko1w9yiP65Epqp4yZqgMG5sXLeSRxrM63Jx7WJjZZ8uqWdkW0/AnvN6tj+tmsh+1urFPK3UsU+ASt34bQSw=="
+    access_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
   }
   required_providers {
       azurerm = {
